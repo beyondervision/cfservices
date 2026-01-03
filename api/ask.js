@@ -1,5 +1,3 @@
-import fetch from "node-fetch";
-
 export default async function handler(req, res) {
   // Alleen POST toestaan
   if (req.method !== "POST") {
@@ -68,7 +66,7 @@ Antwoord helder, rustig en begeleidend.`
 
     const data = await response.json();
 
-    if (!data.choices || !data.choices[0]) {
+    if (!data.choices || !data.choices[0]?.message?.content) {
       throw new Error("Ongeldige AI-respons");
     }
 
