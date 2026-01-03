@@ -1,0 +1,37 @@
+/* ADVANCED Agent Styling */
+
+#zal-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #0b1320;
+  color: #e5e7eb;
+  padding: 10px 16px;
+  font-size: 0.85rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 999;
+  border-bottom: 1px solid #1f2937;
+}
+
+body {
+  padding-top: 52px;
+}
+
+.agent-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.block {
+  margin-top: 28px;
+}
+
+.ai-guidance-label {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #7dd3fc;
+}

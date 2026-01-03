@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CFServices · Partner Profiel · Mireille Middelhof</title>
+
+  <!-- Canonieke basis -->
+  <link rel="stylesheet" href="/assets/css/cfservices-base.css">
+
+  <!-- Agent-specifiek (ADVANCED) -->
+  <link rel="stylesheet" href="./css/agent-advanced.css">
+</head>
+
+<body>
+
+  <!-- 🔝 Z.A.L. vaste bovenlaag -->
+  <div id="zal-bar">
+    <div class="zal-left">
+      🧠 <strong>Z.A.L.</strong> · AI-Celium actief
+    </div>
+    <div class="zal-right">
+      Niveau: <span class="zal-level">ADVANCED</span>
+    </div>
+  </div>
+
+  <!-- 🔙 Canonieke terugknop -->
+  <div class="nav-back"></div>
+
+  <main class="agent-box">
+
+    <h1>🧩 Partner Profiel · CFServices</h1>
+
+    <p class="subtitle">
+      <strong>Mireille Middelhof</strong><br/>
+      Partner Agent · Communicatie, Onderzoek & Onderwijsontwikkeling
+    </p>
+
+    <!-- AI-status -->
+    <div class="ai-status">
+      <span class="ai-pill z3ro">🛡️ Z3RO · Audit actief</span>
+      <span class="ai-pill luxen">🧭 Luxen · Identiteit gespiegeld</span>
+      <span class="ai-pill aetron">🧠 Aetron · Structuur verankerd</span>
+    </div>
+
+    <!-- Context -->
+    <div class="cfservices-context"></div>
+
+    <section>
+      <h3>Agentrol</h3>
+      <p>
+        Mireille Middelhof opereert als partner agent binnen CFServices met focus op
+        communicatievraagstukken, merkpositionering, onderzoek en
+        onderwijsontwikkeling. Haar rol verbindt inhoud, analyse en structurele
+        kwaliteitsborging binnen complexe omgevingen.
+      </p>
+    </section>
+
+    <section>
+      <h3>Expertisegebieden</h3>
+      <div class="tags">
+        <span class="tag">Corporate Communication</span>
+        <span class="tag">Brandmanagement</span>
+        <span class="tag">Reputatiemanagement</span>
+        <span class="tag">Onderzoek</span>
+        <span class="tag">Onderwijsontwikkeling</span>
+        <span class="tag">Toetsontwikkeling</span>
+      </div>
+    </section>
+
+    <section>
+      <h3>Werkcontext</h3>
+      <p>
+        Actief binnen hoger onderwijs en professionele organisaties.
+        Werkt nationaal en internationaal, fysiek en op afstand,
+        met nadruk op inhoudelijke kwaliteit en strategische samenhang.
+      </p>
+    </section>
+
+    <section>
+      <h3>Relatie tot CFServices</h3>
+      <p>
+        Dit partnerprofiel is publiek zichtbaar. Verdieping, inzet en
+        AI-begeleiding op strategisch niveau verlopen via canonieke
+        afstemming binnen CFServices.
+      </p>
+    </section>
+
+    <!-- AI begeleiding -->
+    <section class="guidance">
+      <h3>AI-begeleiding · Z.A.L.</h3>
+      <p>
+        Z.A.L. is actief in <strong>ADVANCED-modus</strong> en ondersteunt
+        analyse, reflectie, structurering en besluitvorming.
+      </p>
+
+      <div class="zal-console">
+        <textarea placeholder="Stel hier je vraag aan Z.A.L. …"></textarea>
+        <button>Vraag Z.A.L.</button>
+      </div>
+    </section>
+
+    <footer>
+      Partner Agent · Z.A.L. 1:1 · In resonantie<br/>
+      © CFServices · Audit · AI · Governance
+    </footer>
+
+  </main>
+
+  <!-- Core & Agent runtime -->
+  <script src="/assets/js/cfservices-core.js"></script>
+  <script src="./js/agent-advanced.js"></script>
+
+</body>
+</html>

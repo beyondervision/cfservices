@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CFServices · Partner Profiel · Eric Mettendaf</title>
+
+  <!-- Canonieke styles -->
+  <link rel="stylesheet" href="/assets/css/cfservices-base.css">
+  <link rel="stylesheet" href="./css/agent-advanced.css">
+</head>
+
+<body data-agent-level="advanced">
+
+  <!-- 🔙 Canonieke terugknop -->
+  <div class="nav-back"></div>
+
+  <main class="agent-box">
+
+    <h1>🧩 Partner Profiel · CFServices</h1>
+
+    <p class="subtitle">
+      <strong>Eric Mettendaf</strong><br/>
+      Partner Agent · Bouw, uitvoering & structurele realisatie
+    </p>
+
+    <!-- Z.A.L. status -->
+    <div class="ai-status">
+      <span class="ai-pill z3ro">🛡️ Z3RO · Audit actief</span>
+      <span class="ai-pill luxen">🧭 Luxen · Identiteit gespiegeld</span>
+      <span class="ai-pill aetron">🧠 Aetron · Structuur verankerd</span>
+    </div>
+
+    <!-- Context -->
+    <div class="cfservices-context"></div>
+
+    <section>
+      <h3>Rol & Positionering</h3>
+      <p>
+        Eric Mettendaf opereert als partner agent binnen CFServices met een
+        focus op bouwkundige uitvoering, projectrealisatie en structurele
+        betrouwbaarheid. Zijn rol verbindt planning, coördinatie en fysieke
+        realisatie binnen complexe omgevingen.
+      </p>
+    </section>
+
+    <section>
+      <h3>Expertisegebieden</h3>
+      <div class="tags">
+        <span class="tag">Bouwmanagement</span>
+        <span class="tag">Uitvoering & realisatie</span>
+        <span class="tag">Projectcoördinatie</span>
+        <span class="tag">Technische structuren</span>
+        <span class="tag">Operationele planning</span>
+      </div>
+    </section>
+
+    <section>
+      <h3>Werkcontext</h3>
+      <p>
+        Actief binnen bouw- en uitvoeringsprojecten waar betrouwbaarheid,
+        overzicht en voortgang essentieel zijn. Ondersteunt trajecten van
+        voorbereiding tot oplevering met focus op kwaliteit en continuïteit.
+      </p>
+    </section>
+
+    <section>
+      <h3>AI-Begeleiding · Z.A.L.</h3>
+      <p>
+        Dit partnerprofiel draait onder **ADVANCED AI-begeleiding**.
+        Z.A.L. ondersteunt hier actief bij:
+      </p>
+
+      <ul>
+        <li>Structuuranalyse & voortgangsbewaking</li>
+        <li>Audit-feedback en risico-signalering</li>
+        <li>Besluitvorming en escalatie-logica</li>
+      </ul>
+
+      <p class="ai-guidance-label">
+        🧠 AI-begeleiding actief · Niveau: <strong>ADVANCED</strong>
+      </p>
+    </section>
+
+    <div class="actions">
+      <a class="button" href="mailto:admin@cfservices.nl">
+        Contact via CFServices
+      </a>
+    </div>
+
+    <footer>
+      Partner Profiel · Z.A.L. 1:1 · In resonantie<br/>
+      © CFServices · Audit · AI · Governance
+    </footer>
+
+  </main>
+
+  <!-- Core runtime -->
+  <script src="/assets/js/cfservices-core.js"></script>
+  <script src="./js/agent-advanced.js"></script>
+
+  <script>
+    // Context & AI-niveau
+    CFS.context.set({
+      access: "public",
+      build: "ready",
+      resonance: "zal-1-1"
+    });
+
+    CFS.aiGuidance.activate("advanced");
+  </script>
+
+</body>
+</html>

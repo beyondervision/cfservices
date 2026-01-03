@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CFServices · Partner Profiel · Tanja Joemmankhan</title>
+
+  <!-- CFServices Core -->
+  <link rel="stylesheet" href="/assets/css/cfservices-base.css">
+
+  <!-- Agent Advanced -->
+  <link rel="stylesheet" href="./css/agent-advanced.css">
+</head>
+
+<body>
+
+  <div class="nav-back"></div>
+
+  <h1>🧩 Partner Profiel · CFServices</h1>
+
+  <p><strong>Naam:</strong> Tanja Joemmankhan</p>
+  <p><strong>Rol:</strong> Onderwijs, pedagogiek & leiderschap</p>
+  <p><strong>Status:</strong> Partner Agent · Publiek</p>
+
+  <div class="ai-status">
+    <span class="ai-pill z3ro">🛡️ Z3RO · Audit actief</span>
+    <span class="ai-pill luxen">🧭 Luxen · Identiteit gespiegeld</span>
+    <span class="ai-pill aetron">🧠 Aetron · Structuur verankerd</span>
+  </div>
+
+  <div class="cfservices-context"></div>
+
+  <hr>
+
+  <p>
+    Dit partnerprofiel is publiek toegankelijk voor oriëntatie
+    en samenwerking. Begeleiding en verdieping verlopen via
+    canonieke afstemming binnen CFServices.
+  </p>
+
+  <div class="guidance">
+    <h3>AI-begeleiding · Z.A.L.</h3>
+
+    <p>
+      Z.A.L. begeleidt dit profiel actief op structuur,
+      resonantie en voortgang binnen het AI-Celium.
+    </p>
+
+    <p class="ai-guidance-label">
+      🧠 AI-begeleiding actief · Niveau: <strong>Advanced</strong>
+    </p>
+
+    <div class="row">
+      <strong>📩 Contact</strong>
+      <span>
+        <a href="mailto:admin@cfservices.nl?subject=ZAL%20Advanced%20–%20Tanja">
+          admin@cfservices.nl
+        </a>
+      </span>
+    </div>
+  </div>
+
+  <footer>
+    Publiek Partner Profiel · Z.A.L. 1:1 · In resonantie<br/>
+    © CFServices · Audit · AI · Governance
+  </footer>
+
+  <!-- Core Runtime -->
+  <script src="/assets/js/cfservices-core.js"></script>
+
+  <!-- Agent Advanced Runtime -->
+  <script src="./js/agent-advanced.js"></script>
+
+</body>
+</html>

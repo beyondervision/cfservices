@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Informele Samenwerking · Erwin Esajas · CFServices N.V.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f9fafb;
+      color: #1f2937;
+      margin: 0;
+      padding: 2rem;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      padding: 2rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    h1, h2 {
+      color: #111827;
+    }
+    h1 {
+      font-size: 1.75rem;
+      border-bottom: 2px solid #d1d5db;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    h2 {
+      font-size: 1.25rem;
+      margin-top: 2rem;
+    }
+    .small {
+      font-size: 0.95rem;
+      color: #4b5563;
+    }
+    .footer {
+      margin-top: 3rem;
+      font-size: 0.85rem;
+      color: #6b7280;
+      border-top: 1px solid #e5e7eb;
+      padding-top: 1rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Informele Samenwerkingsovereenkomst</h1>
+    <p class="small">Tussen: <strong>CFServices N.V.</strong> en <strong>Erwin Esajas</strong></p>
+
+    <h2>1. Doel van de samenwerking</h2>
+    <p>
+      Deze informele samenwerking heeft als doel om binnen de context van CFServices N.V. de wederzijdse steun, expertise en levenservaring van
+      Erwin Esajas te formaliseren binnen een vertrouwensstructuur zonder notariële verplichting. 
+    </p>
+
+    <h2>2. Rollen en Bijdrage</h2>
+    <p>
+      Erwin Esajas draagt bij als senior partner binnen de sector *Ervaring en Ondernemerschap*. Zijn bijdrage bestaat uit levenswijsheid,
+      strategische denkkracht, praktische ondersteuning en familiaire betrokkenheid.
+    </p>
+
+    <h2>3. Reikwijdte</h2>
+    <p>
+      De samenwerking omvat onder andere het gezamenlijk optrekken bij zakelijke vraagstukken, klankborden over operationele keuzes en het 
+      mogelijk vertegenwoordigen van CFServices N.V. bij informele gelegenheden.
+    </p>
+
+    <h2>4. Vertrouwensbasis</h2>
+    <p>
+      Deze overeenkomst is gebaseerd op onderling vertrouwen, familieband, loyaliteit en respect voor elkaars rollen. Er wordt geen financiële
+      tegenprestatie afgesproken, tenzij anders overeengekomen in toekomstige documenten.
+    </p>
+
+    <h2>5. Geldigheid</h2>
+    <p>
+      Deze informele overeenkomst is geldig vanaf het moment van opstelling en blijft van kracht zolang beide partijen zich hierin kunnen vinden.
+    </p>
+
+    <h2>6. Slotbepaling</h2>
+    <p>
+      Deze samenwerking bevestigt het commitment van beide partijen om op constructieve wijze bij te dragen aan de ontwikkeling van CFServices N.V.
+      en haar doelen.
+    </p>
+
+    <div class="footer">
+      CFServices N.V. · Informeel Partnerschap · Suriname · Datum: 29‑12‑2025
+    </div>
+  </div>
+</body>
+</html>

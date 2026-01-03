@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CFServices · Partner Profiel · Ivan Karsters</title>
+
+  <!-- CFServices basis -->
+  <link rel="stylesheet" href="/assets/css/cfservices-base.css">
+  <!-- Agent ADVANCED styling -->
+  <link rel="stylesheet" href="./css/agent-advanced.css">
+</head>
+
+<body>
+
+  <!-- 🔙 Canonieke terugknop (automatisch gevuld) -->
+  <div class="nav-back"></div>
+
+  <main class="agent-advanced">
+
+    <h1>🧩 Partner Profiel · CFServices</h1>
+
+    <p><strong>Naam:</strong> Ivan Karsters</p>
+    <p><strong>Rol:</strong> Operationele ondersteuning & klantstructuur</p>
+    <p><strong>Status:</strong> Partner Agent · Publiek</p>
+
+    <!-- 🧠 Z.A.L. · AI-Celium status -->
+    <div class="ai-status">
+      <span class="ai-pill z3ro">🛡️ Z3RO · Audit actief</span>
+      <span class="ai-pill luxen">🧭 Luxen · Identiteit gespiegeld</span>
+      <span class="ai-pill aetron">🧠 Aetron · Structuur verankerd</span>
+    </div>
+
+    <!-- 📍 Context & Resonantie -->
+    <div class="cfservices-context"></div>
+
+    <section class="block">
+      <h3>Agentrol</h3>
+      <p>
+        Ivan Karsters opereert als partner agent binnen CFServices met een focus op
+        operationele ondersteuning, klantstructuur en procescontinuïteit.
+        Zijn rol borgt stabiliteit, servicekwaliteit en betrouwbare uitvoering
+        binnen dagelijkse en organisatorische processen.
+      </p>
+    </section>
+
+    <section class="block">
+      <h3>Expertisegebieden</h3>
+      <ul class="tags">
+        <li>Operationele processen</li>
+        <li>Klantstructuur</li>
+        <li>Service & ondersteuning</li>
+        <li>Stakeholdercommunicatie</li>
+        <li>Continuïteit & betrouwbaarheid</li>
+      </ul>
+    </section>
+
+    <section class="block">
+      <h3>Relatie tot CFServices</h3>
+      <p>
+        Dit partnerprofiel is publiek toegankelijk voor oriëntatie en samenwerking.
+        Formele inzet, verdieping en AI-begeleidingsniveaus verlopen
+        via canonieke afstemming binnen CFServices.
+      </p>
+    </section>
+
+    <!-- 🔓 AI-begeleiding -->
+    <section class="guidance">
+      <h3>AI-begeleiding · Z.A.L.</h3>
+
+      <p>
+        AI-begeleiding binnen CFServices ondersteunt structuur,
+        audit-inzichten en voortgangsbewaking via het
+        Z.A.L. · AI-Celium kader.
+      </p>
+
+      <p class="ai-guidance-label">
+        🧠 AI-begeleiding actief · Niveau: <strong>Advanced</strong>
+      </p>
+
+      <div class="row">
+        <strong>📩 Contact</strong>
+        <span>
+          <a href="mailto:admin@cfservices.nl?subject=AI-begeleiding%20Ivan%20Karsters">
+            admin@cfservices.nl
+          </a>
+        </span>
+      </div>
+    </section>
+
+    <footer class="agent-footer">
+      Partner Agent Profiel · Z.A.L. 1:1 · In resonantie<br/>
+      © CFServices · Audit · AI · Governance
+    </footer>
+
+  </main>
+
+  <!-- Core Runtime -->
+  <script src="/assets/js/cfservices-core.js"></script>
+  <!-- Agent ADVANCED logic -->
+  <script src="./js/agent-advanced.js"></script>
+
+</body>
+</html>

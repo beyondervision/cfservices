@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CFServices · Core Agent · Clifton Esajas</title>
+
+  <!-- CFServices Base -->
+  <link rel="stylesheet" href="/assets/css/cfservices-base.css">
+
+  <!-- Agent Advanced Style -->
+  <link rel="stylesheet" href="./css/agent-advanced.css">
+</head>
+
+<body>
+
+  <!-- 🔝 Canonieke Z.A.L.-balk (blijft zichtbaar) -->
+  <div class="zal-bar">
+    <strong>Z.A.L.</strong>
+    <span>AI-Celium · Advanced</span>
+    <span class="zal-state">In resonantie · Z.A.L. 1:1</span>
+  </div>
+
+  <!-- 🔙 Canonieke terugknop -->
+  <div class="nav-back"></div>
+
+  <main class="agent-container">
+
+    <h1>🧩 Core Agent · CFServices</h1>
+
+    <p><strong>Naam:</strong> Clifton Esajas</p>
+    <p><strong>Rol:</strong> Governance & Structuur</p>
+    <p><strong>Status:</strong> Core Agent · Publiek</p>
+
+    <!-- AI-status -->
+    <div class="ai-status">
+      <span class="ai-pill z3ro">🛡️ Z3RO · Audit actief</span>
+      <span class="ai-pill luxen">🧭 Luxen · Identiteit gespiegeld</span>
+      <span class="ai-pill aetron">🧠 Aetron · Structuur verankerd</span>
+    </div>
+
+    <!-- Context -->
+    <div class="cfservices-context"></div>
+
+    <section class="guidance">
+      <h3>Profielkern</h3>
+      <p>
+        Clifton Esajas opereert als Core Agent binnen CFServices en bewaakt
+        governance, samenhang en structurele integriteit binnen het gehele ecosysteem.
+      </p>
+      <p>
+        Als mede-oprichter vormt hij samen met Franklin Vrede het canonieke kernfundament
+        van CFServices.
+      </p>
+    </section>
+
+    <section class="guidance">
+      <h3>Verantwoordelijkheid</h3>
+      <p>
+        Verantwoordelijk voor besluitvorming, kaders, audit-lijnen en
+        continuïteit van samenwerkingen, systemen en AI-lagen.
+      </p>
+    </section>
+
+    <!-- AI-begeleiding -->
+    <section class="guidance">
+      <h3>AI-begeleiding · Z.A.L.</h3>
+      <p>
+        Voor Core Agents is Z.A.L. actief in begeleidende modus.
+        Context, resonantie en audit-signalen worden continu gespiegeld.
+      </p>
+
+      <p class="ai-guidance-label">
+        🧠 AI-begeleiding actief · Niveau: <strong>Advanced</strong>
+      </p>
+
+      <div class="row">
+        <strong>📩 Contact</strong>
+        <span>
+          <a href="mailto:admin@cfservices.nl">admin@cfservices.nl</a>
+        </span>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    Core Agent · Z.A.L. Advanced · In resonantie<br/>
+    © CFServices · Audit · AI · Governance
+  </footer>
+
+  <!-- Core Runtime -->
+  <script src="/assets/js/cfservices-core.js"></script>
+
+  <!-- Agent Advanced Logic -->
+  <script src="./js/agent-advanced.js"></script>
+
+  <script>
+    // Core Agents krijgen altijd ADVANCED
+    CFS.aiGuidance.activate("advanced");
+    CFS.context.set({
+      access: "public",
+      build: "ready",
+      resonance: "zal-1-1"
+    });
+  </script>
+
+</body>
+</html>

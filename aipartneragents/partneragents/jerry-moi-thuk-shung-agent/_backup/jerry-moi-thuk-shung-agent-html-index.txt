@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CFServices · Partner Agent · Jerry Moi-Thuk-Shung</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background:#0d1117;
+      color:#c9d1d9;
+      margin:0;
+      padding:40px 20px;
+    }
+
+    .agent-box {
+      max-width:900px;
+      margin:0 auto;
+      background:#161b22;
+      border:1px solid #30363d;
+      border-radius:12px;
+      padding:40px;
+      box-shadow:0 10px 30px rgba(0,0,0,0.5);
+    }
+
+    h1 {
+      margin-top:0;
+      color:#58a6ff;
+      text-align:center;
+    }
+
+    .subtitle {
+      text-align:center;
+      opacity:0.85;
+      margin-bottom:30px;
+    }
+
+    .section {
+      margin-bottom:28px;
+    }
+
+    .meta {
+      font-size:0.95rem;
+      line-height:1.55;
+      opacity:0.9;
+    }
+
+    .tags {
+      margin-top:10px;
+    }
+
+    .tag {
+      display:inline-block;
+      background:#0d1117;
+      border:1px solid #30363d;
+      padding:6px 12px;
+      border-radius:20px;
+      font-size:0.85rem;
+      margin:4px 6px 0 0;
+      color:#7ee787;
+    }
+
+    .contact {
+      background:#0d1117;
+      border:1px dashed #30363d;
+      border-radius:10px;
+      padding:20px;
+      margin-top:20px;
+    }
+
+    .buttons {
+      margin-top:24px;
+    }
+
+    a.button {
+      display:inline-block;
+      background:#238636;
+      color:#fff;
+      padding:10px 16px;
+      border-radius:6px;
+      text-decoration:none;
+      font-size:0.9rem;
+      margin-right:10px;
+    }
+
+    a.button.secondary {
+      background:#374151;
+    }
+
+    .footer {
+      margin-top:40px;
+      text-align:center;
+      font-size:0.8rem;
+      opacity:0.6;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="agent-box">
+
+    <h1>🚕 Partner Agent · CFServices</h1>
+    <p class="subtitle">
+      <strong>Jerry Moi-Thuk-Shung</strong><br/>
+      Mobiliteit · Logistiek · Relatie- en accountmanagement
+    </p>
+
+    <div class="section">
+      <h3>Rol binnen CFServices</h3>
+      <p class="meta">
+        Jerry Moi-Thuk-Shung fungeert als partner agent voor mobiliteit en
+        logistieke ondersteuning binnen het CFServices-ecosysteem.
+        De focus ligt op betrouwbare verplaatsing, klantcoördinatie
+        en het faciliteren van gezinnen, events en zakelijke trajecten.
+      </p>
+    </div>
+
+    <div class="section">
+      <h3>Expertisedomeinen</h3>
+      <div class="tags">
+        <span class="tag">Mobiliteit & vervoer</span>
+        <span class="tag">Gezinslogistiek</span>
+        <span class="tag">Eventondersteuning</span>
+        <span class="tag">Accountmanagement</span>
+        <span class="tag">Relatiebeheer</span>
+        <span class="tag">Operationele planning</span>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>Positionering</h3>
+      <p class="meta">
+        Met een achtergrond in sales, accountmanagement en ondernemerschap
+        verbindt deze partner agent mensen, diensten en trajecten.
+        Mobiliteit wordt hierbij niet gezien als vervoer alleen,
+        maar als onderdeel van betrouwbaarheid, timing en zorg.
+      </p>
+    </div>
+
+    <div class="section">
+      <h3>Governance & Afstemming</h3>
+      <p class="meta">
+        Inzet binnen CFServices vindt plaats in afstemming met
+        audit-, veiligheids- en begeleidingskaders.
+        Activiteiten zijn transparant en geschikt voor samenwerking
+        met andere partner- en persoonsagenten.
+      </p>
+    </div>
+
+    <div class="section contact">
+      <h3>Affiliatie</h3>
+      <p>Golden Seats Taxi & Autostoelverhuur</p>
+      <p>Publiek partnerprofiel · Operationele inzet</p>
+    </div>
+
+    <div class="buttons">
+      <a class="button" href="mailto:admin@cfservices.nl">Afstemming via CFServices</a>
+      <a class="button secondary" href="https://cfservices.nl">Naar homepage</a>
+    </div>
+
+    <div class="footer">
+      Partner Agent Profiel · Publiek toegankelijk<br/>
+      © CFServices · Audit · AI · Governance
+    </div>
+
+  </div>
+
+</body>
+</html>

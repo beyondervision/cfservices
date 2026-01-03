@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Agents · CFServices</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/assets/css/cfservices-base.css">
+</head>
+
+<body>
+
+<header class="zal-header">
+  <h1>Agents & Partners</h1>
+  <p>CFServices · Publiek overzicht (AI begeleidend)</p>
+  <div class="cfservices-context"></div>
+</header>
+
+<section>
+  <h2>🔵 Core Agents</h2>
+  <div class="grid">
+    <a class="card" href="/cfservices/agents/clifton-esajas/">
+      <strong>Clifton Esajas</strong>
+      <span>Founder · Governance & Structuur</span>
+    </a>
+
+    <a class="card" href="/cfservices/agents/franklin-vrede/">
+      <strong>Franklin Vrede</strong>
+      <span>Operationeel Fundament · Core Agent</span>
+    </a>
+  </div>
+</section>
+
+<section>
+  <h2>🟢 Partner Agents</h2>
+  <div class="grid">
+
+    <a class="card" href="/cfservices/agents/vanissa-beukenhout/">
+      <strong>Vanissa Beukenhout</strong>
+      <span>
+        AI-Consulent in Training<br/>
+        <em class="badge training">Training · Co-creatie</em>
+      </span>
+    </a>
+
+    <a class="card" href="/cfservices/agents/bianca-blank/">
+      <strong>Bianca Blank</strong>
+      <span>Gezondheid · Begeleiding · Bewustwording</span>
+    </a>
+
+    <a class="card" href="/cfservices/agents/erwin-esajas/">
+      <strong>Erwin Esajas</strong>
+      <span>Partner Agent</span>
+    </a>
+
+    <!-- overige agents blijven ongewijzigd -->
+
+  </div>
+</section>
+
+<footer>
+  © CFServices · Agents · Partners · Governance<br>
+  <small>Z.A.L. (Luxen · Z3RO · Aetron) actief binnen context</small>
+</footer>
+
+<script src="/assets/js/cfservices-core.js"></script>
+<script>
+  CFS.context.set({
+    access: "public",
+    build: "ready",
+    resonance: "in-resonance"
+  });
+</script>
+
+</body>
+</html>

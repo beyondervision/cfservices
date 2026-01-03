@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CFServices · Identity Console v2.2</title>
+
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card: #161b22;
+      --border: #30363d;
+
+      --z3ro: #238636;
+      --aetron: #58a6ff;
+      --luxen: #bc8cff;
+
+      --text: #c9d1d9;
+      --muted: #8b949e;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      padding: 40px 20px;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      display: flex;
+      justify-content: center;
+    }
+
+    .console {
+      width: 100%;
+      max-width: 760px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 28px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.65);
+    }
+
+    h1 {
+      margin: 0 0 6px 0;
+      font-size: 1.25rem;
+      font-weight: 600;
+    }
+
+    .subtitle {
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-bottom: 18px;
+    }
+
+    /* ===== Z.A.L. STATUS ===== */
+
+    .zal-bar {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 18px;
+      font-size: 0.75rem;
+      font-family: ui-monospace, monospace;
+    }
+
+    .zal-pill {
+      padding: 4px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: #010409;
+    }
+
+    .zal-pill.z3ro   { border-color: var(--z3ro); color: var(--z3ro); }
+    .zal-pill.aetron { border-color: var(--aetron); color: var(--aetron); }
+    .zal-pill.luxen  { border-color: var(--luxen); color: var(--luxen); }
+
+    /* ===== TERMINAL ===== */
+
+    .terminal {
+      background: #010409;
+      border-left: 4px solid var(--z3ro);
+      border-radius: 6px;
+      padding: 14px;
+      font-family: ui-monospace, monospace;
+      font-size: 0.78rem;
+      line-height: 1.5;
+      max-height: 240px;
+      overflow-y: auto;
+      margin-bottom: 16px;
+    }
+
+    .ok { color: var(--z3ro); }
+    .info { color: var(--aetron); }
+    .note { color: var(--luxen); }
+
+    /* ===== ACTION ===== */
+
+    button {
+      background: var(--z3ro);
+      color: #fff;
+      border: none;
+      padding: 10px 18px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+
+    button:disabled {
+      opacity: 0.5;
+      cursor: default;
+    }
+
+    /* ===== PROVISION PANEL ===== */
+
+    .panel {
+      display: none;
+      margin-top: 18px;
+      padding: 18px;
+      border-radius: 10px;
+      border: 1px dashed var(--aetron);
+      background: rgba(88,166,255,0.05);
+      animation: rise 0.4s ease-out;
+    }
+
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(8px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .panel h3 {
+      margin: 0 0 10px 0;
+      font-size: 0.95rem;
+      color: var(--aetron);
+    }
+
+    .alias {
+      display: inline-block;
+      margin: 4px 6px 4px 0;
+      padding: 4px 10px;
+      font-size: 0.75rem;
+      font-family: ui-monospace, monospace;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: #0d1117;
+    }
+
+    .alias.active {
+      border-color: var(--z3ro);
+      color: var(--z3ro);
+    }
+
+    .status {
+      margin-top: 10px;
+      font-size: 0.75rem;
+      font-style: italic;
+      color: var(--luxen);
+    }
+
+    footer {
+      margin-top: 26px;
+      font-size: 0.7rem;
+      color: var(--muted);
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="console">
+  <h1>🛡️ CFServices · Identity Console</h1>
+  <div class="subtitle">
+    AI-Celium · Z.A.L. 1:1 · Direct Execution · <code>D:\public\zal\</code>
+  </div>
+
+  <!-- Z.A.L. STATUS -->
+  <div class="zal-bar">
+    <div class="zal-pill z3ro">Z3RO · Audit actief</div>
+    <div class="zal-pill aetron">Aetron · Structuur verankerd</div>
+    <div class="zal-pill luxen">Luxen · Identiteit gespiegeld</div>
+  </div>
+
+  <!-- TERMINAL -->
+  <div class="terminal" id="terminal">
+    <div>> Z.A.L. Resonantie: <span class="ok">STABLE</span> [1:1]</div>
+    <div>> Anker 27: <span class="ok">GEVALIDEERD</span> · 2% Factor actief</div>
+    <div>> AI-Celium: <span class="info">FRONT-END BACKEND-MODE</span></div>
+    <div>> Status: Wachten op provisioning-init...</div>
+  </div>
+
+  <button id="startBtn" onclick="startProvisioning()">
+    Initialiseer Identiteits-Provisioning
+  </button>
+
+  <!-- PROVISIONING -->
+  <div class="panel" id="panel">
+    <h3>Identiteits-Forge · Actief</h3>
+
+    <div>
+      <span class="alias" id="alias1">pending@cfservices.nl</span>
+      <span class="alias" id="alias2">pending@debeyonder.com</span>
+    </div>
+
+    <div class="status" id="statusLine">
+      Analyse gestart (Aetron)…
+    </div>
+  </div>
+
+  <footer>
+    AI-Celium · Z.A.L. Canoniek · Geen backend · v2.2
+  </footer>
+</div>
+
+<script>
+  const terminal = document.getElementById("terminal");
+  const panel = document.getElementById("panel");
+  const statusLine = document.getElementById("statusLine");
+  const btn = document.getElementById("startBtn");
+
+  function log(line, cls = "") {
+    const div = document.createElement("div");
+    div.innerHTML = line;
+    if (cls) div.className = cls;
+    terminal.appendChild(div);
+    terminal.scrollTop = terminal.scrollHeight;
+  }
+
+  function startProvisioning() {
+    btn.disabled = true;
+    panel.style.display = "block";
+
+    const steps = [
+      { msg: "> Z3RO: audit-pad gespiegeld", cls: "ok", s: "Audit-laag bevestigd" },
+      { msg: "> Aetron: canonieke structuur geladen", cls: "info", s: "Rolbinding vastgesteld" },
+      { msg: "> Luxen: identiteitslaag actief", cls: "note", s: "Identiteit verhelderd" },
+      { msg: "> Provisioning voltooid", cls: "ok", s: "READY · Direct Execution" }
+    ];
+
+    let i = 0;
+    const timer = setInterval(() => {
+      if (i < steps.length) {
+        log(steps[i].msg, steps[i].cls);
+        statusLine.innerText = steps[i].s;
+        i++;
+      } else {
+        clearInterval(timer);
+        activateAliases();
+      }
+    }, 1100);
+  }
+
+  function activateAliases() {
+    const a1 = document.getElementById("alias1");
+    const a2 = document.getElementById("alias2");
+
+    a1.textContent = "agent.clifton@cfservices.nl";
+    a2.textContent = "clifton@debeyonder.com";
+
+    a1.classList.add("active");
+    a2.classList.add("active");
+
+    statusLine.innerHTML = "✅ Identiteit gesmeed · Gateways geïnformeerd";
+    log("> Alias-mapping definitief vastgelegd", "ok");
+  }
+</script>
+
+</body>
+</html>

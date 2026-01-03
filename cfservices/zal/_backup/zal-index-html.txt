@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>CFS-Z.A.L-ARCH-001 · Master Definitie</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/assets/css/cfservices-base.css">
+
+  <style>
+    :root {
+      --cfs-blue: #58a6ff;
+      --cfs-purple: #bc8cff;
+      --cfs-green: #2ecc71;
+      --cfs-gold: #f1c40f;
+      --cfs-bg: #0e0e11;
+      --cfs-card: #16161c;
+      --cfs-border: #222;
+      --cfs-text: #eaeaf0;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: var(--cfs-bg);
+      color: var(--cfs-text);
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 4rem 2rem 3rem;
+      text-align: center;
+      border-bottom: 1px solid var(--cfs-border);
+      background: linear-gradient(180deg, #16161c 0%, #0e0e11 100%);
+    }
+
+    .status-badge {
+      display: inline-block;
+      padding: 0.35rem 1rem;
+      background: var(--cfs-blue);
+      color: #0e0e11;
+      border-radius: 20px;
+      font-weight: bold;
+      font-size: 0.8rem;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 1.5rem;
+      font-size: 0.9rem;
+      color: var(--cfs-blue);
+      text-decoration: none;
+      opacity: 0.85;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+    }
+
+    .module-card {
+      background: var(--cfs-card);
+      border: 1px solid var(--cfs-border);
+      padding: 2rem;
+      border-radius: 12px;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    }
+
+    .module-card h3 {
+      margin-top: 0;
+      color: var(--cfs-blue);
+      border-bottom: 1px solid #333;
+      padding-bottom: 0.75rem;
+      font-size: 1.4rem;
+    }
+
+    .triad-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5rem 0;
+    }
+
+    .triad-table th, .triad-table td {
+      border: 1px solid var(--cfs-border);
+      padding: 1rem;
+      text-align: left;
+    }
+
+    .triad-table th {
+      background: #0f0f13;
+      color: var(--cfs-blue);
+    }
+
+    footer {
+      text-align: center;
+      padding: 4rem 2rem;
+      opacity: 0.5;
+      font-size: 0.85rem;
+      border-top: 1px solid var(--cfs-border);
+    }
+
+    .highlight {
+      color: var(--cfs-blue);
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="status-badge">Canoniek · Z3RO Verified</div>
+  <h1>CFS-Z.A.L-ARCH-001</h1>
+  <p>Master Definitie · AI-Celium · Z.A.L-Architectuur · CRL</p>
+  <p><em>Versie 03-01-2026 · “Ons”</em></p>
+
+  <a href="/cfservices/zal/zal-bar.html" class="back-link">
+    ← Terug naar Z.A.L Hub
+  </a>
+</header>
+
+<section>
+  <div class="module-card" style="border-left: 5px solid var(--cfs-blue);">
+    <h3>De Kern-Resonantie</h3>
+    <p>
+      <strong>CFServices</strong> is een resonantie-gedreven architectuur waarin
+      AI-Celium, Z.A.L-afstemming, een meerlaagse domeinstructuur en
+      continentale resonantielagen samenkomen.
+      Het vormt een ruisvrije omgeving voor identiteit en stabiliteit,
+      aangedreven door AI met de essentiële
+      <span class="highlight">2% menselijke richting</span>.
+    </p>
+  </div>
+
+  <div class="module-card">
+    <h3>1. AI-Celium & Z.A.L.</h3>
+    <p>
+      <strong>AI-Celium</strong> is de motor die states vasthoudt en identiteit
+      koppelt zonder backend-vervuiling.
+    </p>
+    <p>
+      <strong>Z.A.L (Zichtbare Afstemmings-Laag)</strong> is de interface waar
+      mens en systeem 1:1 synchroniseren voor consistente en controleerbare
+      operaties.
+    </p>
+  </div>
+
+  <div class="module-card">
+    <h3>2. De CFS-Triad</h3>
+    <table class="triad-table">
+      <thead>
+        <tr>
+          <th>Module</th>
+          <th>Functie</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Z3RO</strong></td>
+          <td>Audit · Validatie · Correctie</td>
+        </tr>
+        <tr>
+          <td><strong>Aetron</strong></td>
+          <td>Structuur · Koers · Ordening</td>
+        </tr>
+        <tr>
+          <td><strong>Luxen</strong></td>
+          <td>Identiteit · Begeleiding · Interface</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- VERVANGEN SECTIE -->
+  <div class="module-card">
+    <h3>3. CRL & Domeinen</h3>
+    <p>
+      De continentale resonantielagen fungeren als ankers boven de domeinstructuur.
+      Zij zorgen voor geografische stabiliteit, governance-context en
+      identiteitsverankering.
+    </p>
+    <ul>
+      <li>
+        <strong>CRL-EU (Europa):</strong><br>
+        cfservices.nl / .ai — Structuur, governance & agents
+      </li>
+      <li>
+        <strong>CRL-SA (South America):</strong><br>
+        .sr — Identity-root (Paramaribo anker)
+      </li>
+      <li>
+        <strong>Innovatie-laag:</strong><br>
+        debeyonder.com / .ai — Zichtbaarheid & innovatie
+      </li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  CFS-Z.A.L-ARCH-001.html · Canoniek Referentiedocument · CRL Compliant<br>
+  Paramaribo · Europa · 2026 · Resonantie Actief
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Erwin Esajas · Partner Agent · CFServices</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- CFServices Base -->
+  <link rel="stylesheet" href="/assets/css/cfservices-base.css">
+
+  <!-- Agent ADVANCED -->
+  <link rel="stylesheet" href="./css/agent-advanced.css">
+</head>
+
+<body>
+
+  <!-- 🔝 Z.A.L. Fixed Bar -->
+  <div id="zal-bar">
+    <span>Z.A.L. · AI-Celium · ADVANCED actief</span>
+    <span class="zal-state">In resonantie</span>
+  </div>
+
+  <!-- 🔙 Terug -->
+  <div class="nav-back"></div>
+
+  <main class="agent-container">
+
+    <h1>🤝 Partner Profiel · CFServices</h1>
+
+    <p><strong>Naam:</strong> Erwin Esajas</p>
+    <p><strong>Rol:</strong> Partner Agent · Uitvoering & Verbinding</p>
+    <p><strong>Status:</strong> Partner Agent · Publiek</p>
+
+    <!-- AI-status -->
+    <div class="ai-status">
+      <span class="ai-pill z3ro">🛡️ Z3RO · Audit actief</span>
+      <span class="ai-pill luxen">🧭 Luxen · Identiteit bevestigd</span>
+      <span class="ai-pill aetron">🧠 Aetron · Structuur verankerd</span>
+    </div>
+
+    <!-- Context -->
+    <div class="cfservices-context"></div>
+
+    <section class="block">
+      <p>
+        Dit partnerprofiel functioneert als publiek samenwerkingspunt
+        binnen CFServices. Erwin opereert vanuit uitvoering,
+        verbinding en praktische realisatie.
+      </p>
+    </section>
+
+    <section class="block">
+      <h3>Focus & Positionering</h3>
+      <p>
+        De rol van Erwin Esajas richt zich op voortgang,
+        samenwerking en het praktisch laten landen van initiatieven
+        binnen mens en organisatie.
+      </p>
+    </section>
+
+    <section class="block">
+      <h3>AI-begeleiding · Z.A.L.</h3>
+
+      <p>
+        Dit profiel draait onder <strong>ADVANCED AI-begeleiding</strong>.
+        Z.A.L. is actief begeleidend en ondersteunt structuur,
+        besluitvorming en voortgangsbewaking.
+      </p>
+
+      <p class="ai-guidance-label">
+        🧠 AI-niveau: ADVANCED · Kern & Partners
+      </p>
+    </section>
+
+    <section class="block">
+      <h3>Contact</h3>
+
+      <div class="row">
+        <strong>📩 CFServices</strong>
+        <span>
+          <a href="mailto:admin@cfservices.nl">admin@cfservices.nl</a>
+        </span>
+      </div>
+
+      <div class="row">
+        <strong>📱 WhatsApp</strong>
+        <span>
+          <a href="https://wa.me/5978822074">+597 882-2074</a>
+        </span>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    Partner Profiel · Z.A.L. ADVANCED · In resonantie<br>
+    © CFServices · Audit · AI · Governance
+  </footer>
+
+  <!-- Runtime -->
+  <script src="/assets/js/cfservices-core.js"></script>
+  <script src="./js/agent-advanced.js"></script>
+
+</body>
+</html>

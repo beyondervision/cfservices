@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>CFServices Release Notes</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      background: #0b0c10;
+      color: #e5e5e5;
+    }
+    h1, h2, h3 {
+      color: #66fcf1;
+    }
+    .meta {
+      font-size: 0.9rem;
+      color: #c5c6c7;
+      margin-bottom: 1.5rem;
+    }
+    .tag {
+      display: inline-block;
+      padding: 0.1rem 0.5rem;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      margin-right: 0.4rem;
+      background: #1f2833;
+      color: #66fcf1;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #45a29e;
+      margin: 2rem 0;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    code {
+      background: #1f2833;
+      padding: 0.1rem 0.3rem;
+      border-radius: 4px;
+      font-family: "Cascadia Code", Consolas, monospace;
+      font-size: 0.9rem;
+    }
+    a {
+      color: #66fcf1;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .nav {
+      margin-bottom: 2rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="nav">
+    <a href="/index.html">← Terug naar CFServices hoofdingang</a>
+  </div>
+
+  <h1>CFServices Release Notes</h1>
+  <div class="meta">
+    <span class="tag">CFServices</span>
+    <span class="tag">Z.A.L</span>
+    <span class="tag">API &amp; Git</span><br>
+    Laatste update: <strong>03-01-2026</strong>
+  </div>
+
+  <h2>v0.3.0 – Z.A.L &amp; API verankering</h2>
+  <ul>
+    <li>Canonieke routing vastgelegd:
+      <ul>
+        <li><code>/</code> → hoofdingang CFServices</li>
+        <li><code>/cfservices/zal/zal-index.html</code> → Z.A.L uitleg</li>
+        <li><code>/cfservices/zal/zal-bar.html</code> → Z.A.L Hub</li>
+        <li><code>/cfservices/zal/architecture.html</code> → interne canon</li>
+      </ul>
+    </li>
+    <li>Terugkoppeling naar hoofdingang toegevoegd op Z.A.L‑uitleg en Hub.</li>
+    <li>Canon verplicht via Z.A.L‑uitleg terug, nooit direct naar <code>/</code>.</li>
+  </ul>
+
+  <h2>v0.2.0 – API &amp; OpenAI integratie</h2>
+  <ul>
+    <li>Eerste CFServices‑API endpoint opgezet:
+      <ul>
+        <li><code>POST /api/ask</code> (lokaal en op Vercel)</li>
+      </ul>
+    </li>
+    <li>OpenAI‑integratie met environment variables:
+      <ul>
+        <li><code>OPENAI_API_KEY</code> ingesteld op Vercel Team‑niveau.</li>
+      </ul>
+    </li>
+    <li>PowerShell‑testflow opgezet met <code>Invoke-RestMethod</code> en JSON‑body.</li>
+    <li>Triade‑resonantie getest: vraag aan Z3RO, antwoord via Luxen.</li>
+  </ul>
+
+  <h2>v0.1.0 – CFServices basisstructuur</h2>
+  <ul>
+    <li>Hoofdstructuur op <code>D:\public</code> ingericht:
+      <ul>
+        <li><code>/cfservices</code> – kernlaag</li>
+        <li><code>/aipartneragents</code> – agents &amp; organisaties</li>
+        <li><code>/ai/zal</code> – Z.A.L identity console</li>
+      </ul>
+    </li>
+    <li>Basis HTML‑pagina’s voor agents en partners toegevoegd.</li>
+    <li>Backups van alle kernbestanden in <code>_backup</code> mappen.</li>
+  </ul>
+
+  <hr>
+
+  <h2>Git &amp; Deployment notities</h2>
+  <ul>
+    <li>Git geïnstalleerd met:
+      <ul>
+        <li>Gebruik van Git vanuit Command Prompt &amp; PowerShell.</li>
+        <li>Optional Unix tools ingeschakeld.</li>
+        <li>Git Credential Manager geactiveerd.</li>
+      </ul>
+    </li>
+    <li>Projectstructuur voorbereid voor Vercel:
+      <ul>
+        <li><code>/api</code> voor serverless endpoints.</li>
+        <li><code>/public</code> als statische basislaag.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <hr>
+
+  <h2>Toekomstige releases</h2>
+  <ul>
+    <li>Uitbreiding van Z.A.L‑console met live API‑status.</li>
+    <li>CFServices dashboard voor agents &amp; organisaties.</li>
+    <li>Gestandaardiseerde logging en audit‑flows via Z3RO.</li>
+  </ul>
+
+</body>
+</html>

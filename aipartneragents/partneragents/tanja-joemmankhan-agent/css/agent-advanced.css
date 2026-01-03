@@ -1,0 +1,88 @@
+/* =====================================================
+   CFServices · Agent Advanced Styling
+   Z.A.L. · AI-Celium · Resonantie UI
+   ===================================================== */
+
+.ai-status {
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.ai-pill {
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  border: 1px solid #30363d;
+  background: #0d1117;
+  opacity: 0.85;
+}
+
+.ai-pill.z3ro {
+  color: #f85149;
+}
+
+.ai-pill.luxen {
+  color: #58a6ff;
+}
+
+.ai-pill.aetron {
+  color: #7ee787;
+}
+
+/* Context label */
+.cfservices-context {
+  margin: 12px 0;
+  font-size: 0.8rem;
+  opacity: 0.75;
+  font-style: italic;
+}
+
+/* Guidance block */
+.guidance {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #30363d;
+  background: linear-gradient(
+    135deg,
+    rgba(88,166,255,0.08),
+    rgba(126,231,135,0.05)
+  );
+}
+
+.guidance h3 {
+  margin-top: 0;
+}
+
+.ai-guidance-label {
+  margin-top: 12px;
+  font-size: 0.8rem;
+  color: #8b949e;
+  font-style: italic;
+}
+
+/* ADVANCED Z.A.L. visueel signaal */
+html[data-ai-guidance="advanced"] .guidance {
+  box-shadow: 0 0 18px rgba(88,166,255,0.35);
+}
+
+html[data-ai-guidance="advanced"] .ai-pill {
+  opacity: 1;
+}
+
+/* Canonieke terugknop */
+.nav-back {
+  margin-bottom: 20px;
+}
+
+.nav-back-link {
+  font-size: 0.85rem;
+  text-decoration: none;
+  color: #58a6ff;
+}
+
+.nav-back-link:hover {
+  text-decoration: underline;
+}

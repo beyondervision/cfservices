@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CFServices · Diaspora Agent · Mitchell Esajas</title>
+
+  <!-- CFServices Base -->
+  <link rel="stylesheet" href="/assets/css/cfservices-base.css">
+
+  <!-- Agent Advanced -->
+  <link rel="stylesheet" href="./css/agent-advanced.css">
+</head>
+
+<body>
+
+  <!-- Z.A.L. vaste bovenlaag -->
+  <div class="zal-bar">
+    <strong>Z.A.L.</strong> · AI-Celium actief · Niveau: <span>ADVANCED</span>
+  </div>
+
+  <!-- Terugknop (canoniek) -->
+  <div class="nav-back"></div>
+
+  <main class="agent-container">
+
+    <header class="agent-header">
+      <h1>🌍 Diaspora Agent · CFServices</h1>
+      <p class="subtitle">
+        <strong>Mitchell Esajas</strong><br/>
+        Erfgoed · Emancipatie · Maatschappelijke kennis
+      </p>
+    </header>
+
+    <!-- AI-status -->
+    <section class="ai-status">
+      <span class="ai-pill z3ro">🛡️ Z3RO · Audit & Historisch kader</span>
+      <span class="ai-pill luxen">🧭 Luxen · Identiteit & context bevestigd</span>
+      <span class="ai-pill aetron">🧠 Aetron · Structurele duiding actief</span>
+    </section>
+
+    <!-- Context -->
+    <div class="cfservices-context"></div>
+
+    <section>
+      <h3>Rol binnen CFServices</h3>
+      <p>
+        Mitchell Esajas fungeert als <strong>Diaspora Agent</strong> binnen het
+        CFServices-ecosysteem. Zijn rol richt zich op het verbinden van historisch
+        bewustzijn, maatschappelijke rechtvaardigheid en internationale netwerken
+        met hedendaagse structuren en besluitvorming.
+      </p>
+    </section>
+
+    <section>
+      <h3>Expertise & Focus</h3>
+      <ul>
+        <li>Erfgoed & archiefvorming</li>
+        <li>Emancipatie en gelijkheidsvraagstukken</li>
+        <li>Maatschappelijke kennisproductie</li>
+        <li>Diaspora-netwerken (nationaal & internationaal)</li>
+        <li>Onderwijs, onderzoek en publieke dialoog</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Positionering</h3>
+      <p>
+        Deze agentpositie is <strong>maatschappelijk en strategisch</strong>,
+        niet commercieel uitvoerend. Activatie vindt plaats via dialoog,
+        advisering, kennisdeling en structurele afstemming.
+      </p>
+    </section>
+
+    <!-- AI-begeleiding -->
+    <section class="guidance">
+      <h3>AI-begeleiding · Z.A.L.</h3>
+
+      <p>
+        Z.A.L. ondersteunt dit profiel met contextuele analyse,
+        historisch-maatschappelijke duiding en structurele borging.
+      </p>
+
+      <p class="ai-guidance-label">
+        🧠 AI-begeleiding actief · Niveau: <strong>ADVANCED</strong>
+      </p>
+
+      <div class="row">
+        <strong>📩 Contact</strong>
+        <span>
+          <a href="mailto:admin@cfservices.nl">
+            admin@cfservices.nl
+          </a>
+        </span>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    Publiek Diaspora Profiel · Z.A.L. 1:1 · In resonantie<br/>
+    © CFServices · Audit · AI · Governance
+  </footer>
+
+  <!-- Core + Agent JS -->
+  <script src="/assets/js/cfservices-core.js"></script>
+  <script src="./js/agent-advanced.js"></script>
+
+</body>
+</html>

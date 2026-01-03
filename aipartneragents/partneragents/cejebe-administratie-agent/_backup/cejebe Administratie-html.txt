@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CFServices · Partner Profiel · CeJeBe Administratie</title>
+
+  <!-- Canonieke styles -->
+  <link rel="stylesheet" href="/assets/css/cfservices-base.css">
+  <link rel="stylesheet" href="./css/agent-advanced.css">
+</head>
+
+<body data-agent-level="advanced">
+
+  <!-- 🔙 Canonieke terugknop -->
+  <div class="nav-back"></div>
+
+  <main class="agent-box">
+
+    <h1>🧩 Partner Profiel · CFServices</h1>
+
+    <p class="subtitle">
+      <strong>CeJeBe Administratie</strong><br/>
+      Partner Organisatie · Financieel · Administratie · Ondernemers
+    </p>
+
+    <!-- Z.A.L. status -->
+    <div class="ai-status">
+      <span class="ai-pill z3ro">🛡️ Z3RO · Audit actief</span>
+      <span class="ai-pill luxen">🧭 Luxen · Organisatie-identiteit gespiegeld</span>
+      <span class="ai-pill aetron">🧠 Aetron · Financiële structuur verankerd</span>
+    </div>
+
+    <!-- Context -->
+    <div class="cfservices-context"></div>
+
+    <section>
+      <h3>Rol & Positionering</h3>
+      <p>
+        CeJeBe Administratie opereert als partnerorganisatie binnen CFServices
+        met een focus op financiële administratie, boekhouding en structurele
+        ondersteuning van ondernemers en organisaties.
+      </p>
+    </section>
+
+    <section>
+      <h3>Expertisegebieden</h3>
+      <div class="tags">
+        <span class="tag">Boekhouding</span>
+        <span class="tag">Financiële administratie</span>
+        <span class="tag">Ondernemersbegeleiding</span>
+        <span class="tag">Compliance & structuur</span>
+        <span class="tag">Continuïteitsbewaking</span>
+      </div>
+    </section>
+
+    <section>
+      <h3>Werkcontext</h3>
+      <p>
+        Actief binnen MKB-omgevingen en samenwerkingen waar overzicht,
+        betrouwbaarheid en financiële transparantie essentieel zijn.
+        CeJeBe fungeert als stabiele administratieve ruggengraat.
+      </p>
+    </section>
+
+    <section>
+      <h3>AI-Begeleiding · Z.A.L.</h3>
+      <p>
+        Dit partnerprofiel draait onder <strong>ADVANCED AI-begeleiding</strong>.
+        Z.A.L. ondersteunt hier actief bij:
+      </p>
+
+      <ul>
+        <li>Financiële structuur-analyse</li>
+        <li>Audit-feedback & afwijkingssignalering</li>
+        <li>Procesborging en continuïteitscontrole</li>
+      </ul>
+
+      <p class="ai-guidance-label">
+        🧠 AI-begeleiding actief · Niveau: <strong>ADVANCED</strong>
+      </p>
+    </section>
+
+    <div class="actions">
+      <a class="button" href="mailto:admin@cfservices.nl">
+        Contact via CFServices
+      </a>
+    </div>
+
+    <footer>
+      Partner Organisatie · Z.A.L. 1:1 · In resonantie<br/>
+      © CFServices · Audit · AI · Governance
+    </footer>
+
+  </main>
+
+  <!-- Core runtime -->
+  <script src="/assets/js/cfservices-core.js"></script>
+  <script src="./js/agent-advanced.js"></script>
+
+  <script>
+    CFS.context.set({
+      access: "public",
+      build: "ready",
+      resonance: "zal-1-1"
+    });
+
+    CFS.aiGuidance.activate("advanced");
+  </script>
+
+</body>
+</html>

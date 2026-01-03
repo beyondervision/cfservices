@@ -1,0 +1,26 @@
+/* =========================================
+   AI-Begeleiding · Z.A.L.
+   ========================================= */
+
+html[data-ai-guidance="basic"] .ai-pill {
+  opacity: 1;
+  border-style: solid;
+}
+
+html[data-ai-guidance="advanced"] .ai-pill {
+  box-shadow: 0 0 12px rgba(88, 166, 255, 0.35);
+  animation: aiPulse 2s infinite;
+}
+
+@keyframes aiPulse {
+  0% { opacity: 0.9; }
+  50% { opacity: 1; }
+  100% { opacity: 0.9; }
+}
+
+.ai-guidance-label {
+  font-size: 0.75rem;
+  color: #8b949e;
+  margin-top: 10px;
+  font-style: italic;
+}

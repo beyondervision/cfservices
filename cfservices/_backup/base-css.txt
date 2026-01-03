@@ -1,0 +1,10 @@
+.badge.training {
+  display: inline-block;
+  margin-top: 6px;
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  background: #1e293b;
+  color: #7dd3fc;
+  border: 1px solid #334155;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CFServices · Partner Profiel · Patrick Mettendaf-Grayham</title>
+
+  <!-- Canonieke CFServices stijl -->
+  <link rel="stylesheet" href="/assets/css/cfservices-base.css">
+  <link rel="stylesheet" href="./css/agent-advanced.css">
+</head>
+
+<body>
+
+  <!-- Z.A.L. vaste bovenlaag -->
+  <div id="zal-bar"></div>
+
+  <!-- Navigatie -->
+  <div class="nav-back"></div>
+
+  <main class="agent-container">
+
+    <h1>🧩 Partner Profiel · CFServices</h1>
+
+    <p class="subtitle">
+      <strong>Patrick Mettendaf-Grayham</strong><br/>
+      Partner Agent · Maatschappelijke Structuren & Verbinding
+    </p>
+
+    <!-- AI status -->
+    <div class="ai-status">
+      <span class="ai-pill z3ro">🛡️ Z3RO · Audit actief</span>
+      <span class="ai-pill luxen">🧭 Luxen · Identiteit gespiegeld</span>
+      <span class="ai-pill aetron">🧠 Aetron · ADVANCED actief</span>
+    </div>
+
+    <!-- Context & Resonantie -->
+    <div class="cfservices-context"></div>
+
+    <section>
+      <h3>Rol & Positionering</h3>
+      <p>
+        Patrick Mettendaf-Grayham opereert als Partner Agent binnen CFServices
+        met focus op maatschappelijke structuren, verbinding en duurzame
+        samenwerking. Zijn rol bevindt zich op het snijvlak van mens,
+        organisatie en systeem.
+      </p>
+    </section>
+
+    <section>
+      <h3>Expertisegebieden</h3>
+      <div class="tags">
+        <span class="tag">Maatschappelijke Ontwikkeling</span>
+        <span class="tag">Netwerkvorming</span>
+        <span class="tag">Structuur & Governance</span>
+        <span class="tag">Strategische Verbinding</span>
+      </div>
+    </section>
+
+    <section>
+      <h3>Relatie tot CFServices</h3>
+      <p>
+        Dit profiel maakt deel uit van het **ADVANCED Partner-kader**.
+        Patrick opereert in directe afstemming met Z.A.L. en is
+        structureel verbonden aan audit-, resonantie- en
+        begeleidingslagen binnen CFServices.
+      </p>
+    </section>
+
+    <!-- AI begeleiding -->
+    <section class="guidance">
+      <h3>AI-Begeleiding · Z.A.L.</h3>
+
+      <p class="ai-guidance-label">
+        🧠 AI-begeleiding actief · Niveau: <strong>ADVANCED</strong>
+      </p>
+
+      <p>
+        Z.A.L. is actief beschikbaar voor analyse, vragen en
+        contextuele ondersteuning op deze pagina.
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    Publiek Partner Profiel · Z.A.L. 1:1 · In resonantie<br/>
+    © CFServices · Audit · AI · Governance
+  </footer>
+
+  <!-- Core + Advanced Agent runtime -->
+  <script src="/assets/js/cfservices-core.js"></script>
+  <script src="./js/agent-advanced.js"></script>
+
+</body>
+</html>

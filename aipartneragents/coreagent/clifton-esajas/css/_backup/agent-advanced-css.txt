@@ -1,0 +1,39 @@
+.agent-container {
+  max-width: 900px;
+  margin: 120px auto 60px;
+  padding: 0 20px;
+}
+
+.zal-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #0d1117;
+  border-bottom: 1px solid #30363d;
+  padding: 10px 16px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  font-size: 0.85rem;
+  z-index: 1000;
+}
+
+.zal-bar strong {
+  color: #58a6ff;
+}
+
+.zal-state {
+  opacity: 0.8;
+}
+
+.guidance {
+  margin-top: 32px;
+}
+
+.ai-guidance-label {
+  margin-top: 10px;
+  font-style: italic;
+  font-size: 0.85rem;
+  opacity: 0.8;
+}

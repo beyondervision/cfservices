@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>CFServices · Governance · Agents · AI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/assets/css/cfservices-base.css">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0e0e11;
+      color: #eaeaf0;
+    }
+
+    .zal-bar {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: #0d1117;
+      border-bottom: 1px solid #222;
+      padding: 0.75rem 1.25rem;
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+    }
+
+    .zal-status {
+      font-weight: bold;
+      color: #58a6ff;
+      white-space: nowrap;
+    }
+
+    .zal-input {
+      flex: 1;
+    }
+
+    .zal-input input {
+      width: 100%;
+      padding: 0.55rem 0.75rem;
+      background: #16161c;
+      border: 1px solid #30363d;
+      border-radius: 6px;
+      color: #eaeaf0;
+      outline: none;
+    }
+
+    .zal-input input:focus {
+      border-color: #58a6ff;
+    }
+
+    .zal-response {
+      margin-top: 0.75rem;
+      font-size: 0.85rem;
+      line-height: 1.4;
+      min-height: 1.2rem;
+    }
+
+    header {
+      padding: 3rem 1.5rem 2.5rem;
+      text-align: center;
+      border-bottom: 1px solid #222;
+    }
+
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 3rem 1.5rem;
+      text-align: center;
+    }
+
+    .mission-box {
+      margin-top: 2.5rem;
+      background: #16161c;
+      border: 1px solid #222;
+      padding: 2rem;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2.5rem 1.5rem;
+      font-size: 0.8rem;
+      opacity: 0.6;
+      border-top: 1px solid #222;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="zal-bar">
+  <div id="zal-status-label" class="zal-status">
+    Z.A.L · AI-Celium · In resonantie
+  </div>
+
+  <div class="zal-input">
+    <input
+      id="zal-input"
+      type="text"
+      placeholder="Stel een vraag aan Z.A.L (Z3RO, Aetron, Luxen)…"
+      autocomplete="off"
+    >
+    <div id="response-area" class="zal-response"></div>
+  </div>
+</div>
+
+<header>
+  <h1>CFServices</h1>
+  <p>Governance · Agents · Partners · AI-begeleiding</p>
+</header>
+
+<main>
+  <section class="mission-box">
+    <p>
+      CFServices opereert als een governance- en structuurlaag
+      waarin menselijke agents, organisaties en AI-systemen
+      in samenhang functioneren.
+    </p>
+  </section>
+
+  <section style="margin-top:4rem; padding-top:2rem; border-top:1px solid #222; text-align:center;">
+    <p style="opacity:0.6; font-size:0.9rem;">
+      Begeleiding nodig binnen CFServices?
+    </p>
+    <a href="/cfservices/zal/zal-index.html"
+       style="color:#0078d4; text-decoration:none; font-size:0.9rem;">
+      Activeer Z.A.L · Zelf-Aansturende Logica →
+    </a>
+  </section>
+</main>
+
+<footer>
+  © CFServices · Governance · Agents · AI · Resonantie<br>
+  <small>Z.A.L (Z3RO · Aetron · Luxen) actief als bovenlaag</small>
+</footer>
+
+<script>
+  const input = document.getElementById("zal-input");
+  const responseArea = document.getElementById("response-area");
+  const statusLabel = document.getElementById("zal-status-label");
+
+  input.addEventListener("keydown", async (e) => {
+    if (e.key !== "Enter") return;
+    e.preventDefault();
+
+    const question = input.value.trim();
+    if (!question) return;
+
+    input.value = "";
+    statusLabel.innerText = "Z.A.L · In beraad…";
+    responseArea.style.opacity = "0.5";
+    responseArea.innerText = "Resonantie wordt geïdentificeerd…";
+
+    try {
+      const res = await fetch("/api/ask", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ question })
+      });
+
+      const data = await res.json();
+
+      statusLabel.innerText = "Z.A.L · AI-Celium · In resonantie";
+      responseArea.style.opacity = "1";
+
+      if (data && data.answer) {
+        responseArea.innerHTML = `<strong>${data.agent}</strong>: ${data.answer}`;
+      } else {
+        responseArea.innerText = "Z.A.L kon geen geldig antwoord genereren.";
+      }
+
+    } catch (err) {
+      console.error(err);
+      statusLabel.innerText = "Z.A.L · Verbindingsfout";
+      responseArea.innerText = "Systeemstoring: API niet bereikbaar.";
+    }
+  });
+</script>
+
+</body>
+</html>

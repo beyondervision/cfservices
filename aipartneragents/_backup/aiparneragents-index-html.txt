@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Agents & Partners · CFServices</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CFServices Core Style -->
+  <link rel="stylesheet" href="/assets/css/cfservices-base.css">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0e0e11;
+      color: #eaeaf0;
+    }
+
+    /* =========================
+       Z.A.L. Sticky Bar
+    ========================= */
+    .zal-bar {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: #0d1117;
+      border-bottom: 1px solid #222;
+      padding: 0.75rem 1.25rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .zal-status {
+      font-weight: bold;
+      color: #58a6ff;
+    }
+
+    .zal-input {
+      flex: 1;
+      min-width: 220px;
+    }
+
+    .zal-input input {
+      width: 100%;
+      padding: 0.5rem 0.75rem;
+      background: #16161c;
+      border: 1px solid #30363d;
+      border-radius: 6px;
+      color: #eaeaf0;
+    }
+
+    header {
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 1px solid #222;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    header p {
+      opacity: 0.7;
+      margin-top: 0.5rem;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      margin-top: 0;
+      border-left: 4px solid #555;
+      padding-left: 0.75rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .card {
+      background: #16161c;
+      border: 1px solid #222;
+      padding: 1rem;
+      border-radius: 6px;
+      text-decoration: none;
+      color: inherit;
+      transition: border-color 0.2s, background 0.2s;
+    }
+
+    .card:hover {
+      border-color: #58a6ff;
+      background: #1b1b22;
+    }
+
+    .card strong {
+      display: block;
+    }
+
+    .card span {
+      font-size: 0.85rem;
+      opacity: 0.7;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.8rem;
+      opacity: 0.6;
+      border-top: 1px solid #222;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- =========================
+     Z.A.L. BAR (ACTIEF)
+========================= -->
+<div class="zal-bar">
+  <div class="zal-status">
+    Z.A.L. · AI-Celium · Context & Resonantie Engine actief
+  </div>
+
+  <div class="zal-input">
+    <input type="text" placeholder="Stel een vraag aan Z.A.L. (contextueel)…">
+  </div>
+</div>
+
+<header>
+  <h1>Agents & Partners</h1>
+  <p>CFServices · Publiek overzicht (AI begeleidend)</p>
+</header>
+
+<!-- CORE AGENTS -->
+<section>
+  <h2>🔵 Core Agents</h2>
+  <div class="grid">
+    <a class="card" href="/aipartneragents/coreagent/clifton-esajas/">
+      <strong>Clifton Esajas</strong>
+      <span>Founder · Governance & Structuur</span>
+    </a>
+
+    <a class="card" href="/aipartneragents/coreagent/franklin-vrede/">
+      <strong>Franklin Vrede</strong>
+      <span>Operationeel Fundament · Core Agent</span>
+    </a>
+  </div>
+</section>
+
+<!-- PARTNER AGENTS -->
+<section>
+  <h2>🟢 Partner Agents</h2>
+  <div class="grid">
+    <a class="card" href="/aipartneragents/partneragents/erwin-esajas-agent/"><strong>Erwin Esajas</strong><span>Partner Agent</span></a>
+    <a class="card" href="/aipartneragents/partneragents/felbra-rozenblad-agent/"><strong>Felbra Rozenblad</strong><span>Partner Agent</span></a>
+    <a class="card" href="/aipartneragents/partneragents/mireille-middelhof-agent/"><strong>Mireille Middelhof</strong><span>Partner Agent</span></a>
+    <a class="card" href="/aipartneragents/partneragents/bianca-blank-agent/"><strong>Bianca Blank</strong><span>Partner Agent</span></a>
+    <a class="card" href="/aipartneragents/partneragents/ivan-karsters-agent/"><strong>Ivan Karsters</strong><span>Partner Agent</span></a>
+    <a class="card" href="/aipartneragents/partneragents/eric-mettendaf-agent/"><strong>Eric Mettendaf</strong><span>Partner Agent</span></a>
+    <a class="card" href="/aipartneragents/partneragents/tanja-joemmankhan-agent/"><strong>Tanja Joemmankhan</strong><span>Partner Agent</span></a>
+    <a class="card" href="/aipartneragents/partneragents/patrick-mettendaf-grayham-agent/"><strong>Patrick Mettendaf-Grayham</strong><span>Partner Agent</span></a>
+    <a class="card" href="/aipartneragents/partneragents/margaretha-huncks-willemse-agent/"><strong>Margaretha Huncks-Willemse</strong><span>Partner Agent</span></a>
+    <a class="card" href="/aipartneragents/partneragents/jerry-moi-thuk-shung-agent/"><strong>Jerry Moi-Thuk-Shung</strong><span>Partner Agent</span></a>
+    <a class="card" href="/aipartneragents/partneragents/marcel-leider/"><strong>Marcel Leider</strong><span>Partner Agent</span></a>
+  </div>
+</section>
+
+<!-- DIASPORA -->
+<section>
+  <h2>🟠 Diaspora & Maatschappij</h2>
+  <div class="grid">
+    <a class="card" href="/aipartneragents/diasporaagents/mitchell-esajas/">
+      <strong>Mitchell Esajas</strong>
+      <span>Diaspora · Cultuur · Emancipatie</span>
+    </a>
+  </div>
+</section>
+
+<!-- ORGANISATIONS -->
+<section>
+  <h2>🟣 Organisaties</h2>
+  <div class="grid">
+    <a class="card" href="/aipartneragents/organizations/exact-security-agent/">
+      <strong>Exact Security</strong>
+      <span>Beveiligingsorganisatie · Partner</span>
+    </a>
+
+    <a class="card" href="/aipartneragents/partneragents/cejebe-administratie-agent/">
+      <strong>CeJeBe Administratie</strong>
+      <span>Financieel · Administratie · Ondernemers</span>
+    </a>
+  </div>
+</section>
+
+<footer>
+  © CFServices · Agents · Partners · Diaspora · Organisaties<br>
+  <small>AI-systemen (Luxen · Z3RO · Aetron) worden contextueel geactiveerd binnen de /ai-omgeving.</small>
+</footer>
+
+<!-- Core Runtime -->
+<script src="/assets/js/cfservices-core.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CFServices · Partner Profiel · Felbra Rozenblad</title>
+
+  <!-- CFServices Core -->
+  <link rel="stylesheet" href="/assets/css/cfservices-base.css">
+  <link rel="stylesheet" href="./css/agent-profile.css">
+</head>
+
+<body>
+
+  <!-- 🔙 Canonieke terugknop -->
+  <div class="nav-back"></div>
+
+  <h1>🤝 Partner Profiel · CFServices</h1>
+
+  <p><strong>Naam:</strong> Felbra Rozenblad</p>
+  <p><strong>Rol:</strong> Zorgmanagement · Patiëntenzorg · Uitvoering</p>
+  <p><strong>Status:</strong> Partner Agent · Publiek</p>
+
+  <!-- 🧠 Z.A.L. status -->
+  <div class="ai-status">
+    <span class="ai-pill z3ro">🛡️ Z3RO · Audit actief</span>
+    <span class="ai-pill luxen">🧭 Luxen · Identiteit gespiegeld</span>
+    <span class="ai-pill aetron">🧠 Aetron · Structuur verankerd</span>
+  </div>
+
+  <!-- 📍 Context -->
+  <div class="cfservices-context"></div>
+
+  <hr>
+
+  <p>
+    Felbra Rozenblad is verbonden als <strong>Partner Agent</strong> binnen CFServices,
+    met een focus op zorgmanagement, patiëntenzorg en menselijke uitvoeringsstructuren.
+    De rol is uitvoerend, begeleidend en audit-ondersteunend.
+  </p>
+
+  <!-- 🔓 AI-begeleiding -->
+  <div class="guidance">
+    <h3>AI-begeleiding · Z.A.L.</h3>
+
+    <p>
+      Binnen dit profiel is Z.A.L. actief op <strong>ADVANCED-niveau</strong>.
+      Dit betekent structurele begeleiding, audit-feedback en contextbewaking
+      binnen lopende trajecten.
+    </p>
+
+    <p class="ai-guidance-label">
+      🧠 AI-begeleiding actief · Niveau: <strong>Advanced</strong>
+    </p>
+
+    <div class="row">
+      <strong>📩 Afstemming</strong>
+      <span>
+        <a href="mailto:admin@cfservices.nl?subject=ZAL%20Advanced%20-%20Felbra%20Rozenblad">
+          admin@cfservices.nl
+        </a>
+      </span>
+    </div>
+  </div>
+
+  <footer>
+    Publiek Partner Profiel · Z.A.L. 1:1 · In resonantie<br/>
+    © CFServices · Audit · AI · Governance
+  </footer>
+
+  <!-- Core -->
+  <script src="/assets/js/cfservices-core.js"></script>
+  <script src="./js/agent-links.js"></script>
+
+  <script>
+    // ADVANCED activatie
+    CFS.context.set({
+      access: "public",
+      build: "ready",
+      resonance: "zal-1-1"
+    });
+
+    CFS.aiGuidance.activate("advanced");
+  </script>
+
+</body>
+</html>
